@@ -3,15 +3,14 @@
 let hodiny = 0;
 let minuty = 0;
 
-// while (hodiny < 24){
-//     console.log(String(hodiny)+':'+ String(minuty).padStart(2,'0'));
-//     minuty++;
-//     if (minuty === 60){
-//         hodiny++;
-//         minuty=0;
-//     }
-    
-// }
+while (hodiny < 24){
+     console.log(String(hodiny)+':'+ String(minuty).padStart(2,'0'));
+     minuty++;
+     if (minuty === 60){         
+         hodiny++;
+         minuty=0;
+     }    
+ }
 
 // ČEKÁNÍ NA ŠESTKU
 function roll() {
